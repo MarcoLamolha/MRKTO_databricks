@@ -1,11 +1,4 @@
-## **Introdução**
-
-Bem-vindos ao nosso workshop sobre SQL no **Databricks**. Hoje, vamos explorar os conceitos básicos de bancos de dados e como o Databricks pode ser usado para gerenciar e analisar dados de forma eficiente e escalável. 
-
-Nesta aula, exploraremos como usar comandos SQL no Databricks para resolver desafios reais de negócios. Vamos entender como manipular dados em grande escala e como essas ferramentas podem gerar insights estratégicos para diferentes áreas da organização. O foco será em comandos essenciais, como **SELECT**, **JOIN**, **GROUP BY**, **HAVING**, e técnicas avançadas como **Subqueries**, **CTEs**, **Views**, e **Criação de Tabelas**.
-
-Link do excel: https://docs.google.com/spreadsheets/d/1ebChXrvERo9ohuwG4DF6TL4lkrEX8j2Si0q3rkuRNHo/edit?usp=sharing
-Link do escalidraw: https://link.excalidraw.com/l/8pvW6zbNUnD/AOSRHr9dKWd
+## SQL ON DATABRICKS
 
 ---
 
@@ -18,7 +11,7 @@ Link do escalidraw: https://link.excalidraw.com/l/8pvW6zbNUnD/AOSRHr9dKWd
 4. **GROUP BY e HAVING:** Para agrupar e filtrar dados agregados.
 5. **ORDER BY:** Para ordenar os resultados.
 6. **LIMIT:** Para restringir o número de linhas no resultado.
-7. **JOINs:** Para combinar dados de tabelas relacionadas (**INNER JOIN**, **LEFT JOIN**, **RIGHT JOIN**).
+7. **JOINs:** Para combinar dados de tabelas relacionadas.
 8. **Subqueries:** Para consultas aninhadas e cálculos dinâmicos.
 9. **CTEs:** Para organizar e simplificar consultas complexas.
 10. **Views:** Para criar tabelas virtuais baseadas em consultas.
@@ -33,15 +26,6 @@ Link do escalidraw: https://link.excalidraw.com/l/8pvW6zbNUnD/AOSRHr9dKWd
 
 ### **Desafio 2: Clientes Mais Lucrativos**
 **Objetivo:** Determinar os clientes que mais geraram receita para a empresa.
----
-
-## **Objetivos da Aula**
-
-Ao final desta aula, você será capaz de:
-1. Entender como cada comando SQL se aplica a cenários reais.
-2. Resolver desafios de negócios utilizando SQL no Databricks.
-3. Explorar e manipular dados de forma eficiente para gerar insights acionáveis.
-4. Compreender como o SQL pode ser usado para trabalhar com grandes volumes de dados no Databricks.
 
 ---
 
@@ -72,21 +56,6 @@ Aqui estão alguns recursos para complementar seus estudos:
 
 ---
 
-## Diferença Entre Excel e Databricks
-
-Embora ambos sejam usados para manipular dados, o Excel e o Databricks têm conceitos e finalidades diferentes. A tabela a seguir ilustra essas diferenças:
-
-| **Aspecto**         | **Excel**                             | **Databricks**                          |
-|----------------------|---------------------------------------|------------------------------------------|
-| **Armazenamento**    | Arquivos locais (XLSX, CSV)           | Bancos de dados e Data Lakes na nuvem    |
-| **Tamanho dos Dados**| Limitado (cerca de 1 milhão de linhas)| Virtualmente ilimitado                   |
-| **Colaboração**      | Individual ou em rede limitada        | Colaboração em tempo real na nuvem       |
-| **Processamento**    | Local no computador do usuário        | Distribuído em clusters (nós e workers)  |
-| **Interface**        | Visual e baseada em planilhas         | Baseada em notebooks e queries SQL       |
-| **Automação**        | Suporte a macros e VBA                | Totalmente programável (Python, SQL, etc.) |
-| **Finalidade**       | Análises locais e rápidas             | Análises escaláveis e aprendizado de máquina |
-
----
 
 ## Comparação de Estruturas: Database vs Excel
 
